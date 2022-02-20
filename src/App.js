@@ -1,11 +1,14 @@
 import './App.css';
+import {NotesList} from "./components/NotesList/NotesList";
+import {Input} from "./components/Input/Input";
 
-function App() {
-  return (
-    <div className="App">
-        Working
-    </div>
-  );
+export const App = () => {
+    return (
+        <div className="App">
+            <NotesList/>
+            <Input/>
+        </div>
+    );
 }
 
-export default App;
+

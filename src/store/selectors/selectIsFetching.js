@@ -1,0 +1,1 @@
+export const selectIsFetching = (state) => state.notes.isFetching
